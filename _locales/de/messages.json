@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Regex Search" },
+  "extDescription": { "message": "Sucht Regex-Muster im sichtbaren Text jeder Webseite. Merkt sich die letzte Suche und wendet sie beim Navigieren erneut an." },
+  "popupTitle": { "message": "Regex-Suche" },
+  "inputPlaceholder": { "message": "Bsp.: \\d{3}-\\d{4}" },
+  "flagIgnoreCase": { "message": "Groß-/Kleinschreibung ignorieren" },
+  "flagMultiline": { "message": "mehrzeilig" },
+  "flagDotAll": { "message": "dotAll" },
+  "searchButton": { "message": "Suchen" },
+  "clearButton": { "message": "Löschen" },
+  "enterPatternError": { "message": "Gib ein Regex-Muster ein" },
+  "invalidRegexError": {
+    "message": "Ungültiges Regex: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "searchingStatus": { "message": "Suche läuft…" },
+  "noMatches": { "message": "Keine Treffer" },
+  "matchCountOne": {
+    "message": "$COUNT$ Treffer",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ Treffer",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cannotAccessTab": { "message": "Auf den aktuellen Tab kann nicht zugegriffen werden" },
+  "pageNotSupported": { "message": "Diese Seite lässt keine Erweiterungen zu" },
+  "genericError": {
+    "message": "Fehler: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "autoSearchActive": { "message": "● Auto-Suche aktiv" }
+}

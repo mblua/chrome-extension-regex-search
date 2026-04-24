@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Regex Search" },
+  "extDescription": { "message": "Pesquisa padrões regex no texto visível de qualquer página web. Memoriza a última pesquisa e reaplica-a ao navegar." },
+  "popupTitle": { "message": "Pesquisa Regex" },
+  "inputPlaceholder": { "message": "Ex: \\d{3}-\\d{4}" },
+  "flagIgnoreCase": { "message": "ignorar maiúsculas" },
+  "flagMultiline": { "message": "multilinha" },
+  "flagDotAll": { "message": "dotAll" },
+  "searchButton": { "message": "Pesquisar" },
+  "clearButton": { "message": "Limpar" },
+  "enterPatternError": { "message": "Introduza um padrão regex" },
+  "invalidRegexError": {
+    "message": "Regex inválido: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "searchingStatus": { "message": "A pesquisar…" },
+  "noMatches": { "message": "Sem correspondências" },
+  "matchCountOne": {
+    "message": "$COUNT$ correspondência",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ correspondências",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cannotAccessTab": { "message": "Não é possível aceder ao separador atual" },
+  "pageNotSupported": { "message": "Esta página não permite extensões" },
+  "genericError": {
+    "message": "Erro: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "autoSearchActive": { "message": "● Pesquisa automática ativa" }
+}

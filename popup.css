@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 320px;
+  background: #1e1e1e;
+  color: #e8e8e8;
+}
+
+.container {
+  padding: 14px 16px;
+}
+
+h2 {
+  margin: 0 0 12px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4a9eff;
+}
+
+#regex-input {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  background: #2d2d2d;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #e8e8e8;
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+#regex-input:focus {
+  outline: none;
+  border-color: #4a9eff;
+}
+
+#regex-input.error {
+  border-color: #ff5555;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.flags label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flags code {
+  background: #2d2d2d;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #4a9eff;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.row.nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  padding: 6px 12px;
+  background: #3a3a3a;
+  border: 1px solid #555;
+  color: #e8e8e8;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: inherit;
+}
+
+button:hover:not(:disabled) {
+  background: #4a4a4a;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.primary {
+  flex: 1;
+  background: #4a9eff;
+  border-color: #4a9eff;
+  color: #fff;
+  font-weight: 500;
+}
+
+button.primary:hover:not(:disabled) {
+  background: #3a8eef;
+}
+
+.nav button {
+  min-width: 40px;
+}
+
+#counter {
+  font-family: "Consolas", monospace;
+  font-size: 12px;
+  color: #aaa;
+  flex: 1;
+  text-align: center;
+}
+
+#status {
+  margin-top: 6px;
+  font-size: 12px;
+  min-height: 16px;
+  color: #ff5555;
+}
+
+#status.success {
+  color: #4ade80;
+}
+
+#status.info {
+  color: #aaa;
+}
+
+#auto-badge {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #666;
+  min-height: 14px;
+}
+
+#auto-badge.active {
+  color: #4ade80;
+}

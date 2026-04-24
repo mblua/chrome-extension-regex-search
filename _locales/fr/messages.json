@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Regex Search" },
+  "extDescription": { "message": "Recherche des motifs regex dans le texte visible de n'importe quelle page web. Mémorise la dernière recherche et la réapplique lors de la navigation." },
+  "popupTitle": { "message": "Recherche Regex" },
+  "inputPlaceholder": { "message": "Ex : \\d{3}-\\d{4}" },
+  "flagIgnoreCase": { "message": "ignorer la casse" },
+  "flagMultiline": { "message": "multiligne" },
+  "flagDotAll": { "message": "dotAll" },
+  "searchButton": { "message": "Rechercher" },
+  "clearButton": { "message": "Effacer" },
+  "enterPatternError": { "message": "Saisissez un motif regex" },
+  "invalidRegexError": {
+    "message": "Regex invalide : $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "searchingStatus": { "message": "Recherche…" },
+  "noMatches": { "message": "Aucune correspondance" },
+  "matchCountOne": {
+    "message": "$COUNT$ correspondance",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ correspondances",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cannotAccessTab": { "message": "Impossible d'accéder à l'onglet actuel" },
+  "pageNotSupported": { "message": "Cette page n'autorise pas les extensions" },
+  "genericError": {
+    "message": "Erreur : $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "autoSearchActive": { "message": "● Recherche auto active" }
+}

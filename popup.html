@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2 data-i18n="popupTitle"></h2>
+
+    <input
+      type="text"
+      id="regex-input"
+      data-i18n-attr="placeholder"
+      data-i18n="inputPlaceholder"
+      autocomplete="off"
+      spellcheck="false"
+      autofocus
+    >
+
+    <div class="flags">
+      <label>
+        <input type="checkbox" id="flag-i" checked>
+        <span><code>i</code> <span data-i18n="flagIgnoreCase"></span></span>
+      </label>
+      <label>
+        <input type="checkbox" id="flag-m">
+        <span><code>m</code> <span data-i18n="flagMultiline"></span></span>
+      </label>
+      <label>
+        <input type="checkbox" id="flag-s">
+        <span><code>s</code> <span data-i18n="flagDotAll"></span></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <button id="search-btn" class="primary" data-i18n="searchButton"></button>
+      <button id="clear-btn" data-i18n="clearButton"></button>
+    </div>
+
+    <div class="row nav">
+      <button id="prev-btn" disabled>◀</button>
+      <span id="counter">0 / 0</span>
+      <button id="next-btn" disabled>▶</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="auto-badge"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

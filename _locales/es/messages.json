@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Regex Search" },
+  "extDescription": { "message": "Busca patrones regex en el texto visible de cualquier página web. Recuerda la última búsqueda y la re-aplica al navegar." },
+  "popupTitle": { "message": "Búsqueda Regex" },
+  "inputPlaceholder": { "message": "Ej: \\d{3}-\\d{4}" },
+  "flagIgnoreCase": { "message": "ignorar mayúsculas" },
+  "flagMultiline": { "message": "multilínea" },
+  "flagDotAll": { "message": "dotAll" },
+  "searchButton": { "message": "Buscar" },
+  "clearButton": { "message": "Limpiar" },
+  "enterPatternError": { "message": "Introduce un patrón regex" },
+  "invalidRegexError": {
+    "message": "Regex inválida: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "searchingStatus": { "message": "Buscando…" },
+  "noMatches": { "message": "Sin coincidencias" },
+  "matchCountOne": {
+    "message": "$COUNT$ coincidencia",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ coincidencias",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cannotAccessTab": { "message": "No se puede acceder a la pestaña actual" },
+  "pageNotSupported": { "message": "Esta página no admite extensiones" },
+  "genericError": {
+    "message": "Error: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "autoSearchActive": { "message": "● Auto-búsqueda activa" }
+}

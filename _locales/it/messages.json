@@ -1,0 +1,33 @@
+{
+  "extName": { "message": "Regex Search" },
+  "extDescription": { "message": "Cerca pattern regex nel testo visibile di qualsiasi pagina web. Ricorda l'ultima ricerca e la riapplica durante la navigazione." },
+  "popupTitle": { "message": "Ricerca Regex" },
+  "inputPlaceholder": { "message": "Es: \\d{3}-\\d{4}" },
+  "flagIgnoreCase": { "message": "ignora maiuscole" },
+  "flagMultiline": { "message": "multilinea" },
+  "flagDotAll": { "message": "dotAll" },
+  "searchButton": { "message": "Cerca" },
+  "clearButton": { "message": "Cancella" },
+  "enterPatternError": { "message": "Inserisci un pattern regex" },
+  "invalidRegexError": {
+    "message": "Regex non valida: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "searchingStatus": { "message": "Ricerca in corso…" },
+  "noMatches": { "message": "Nessuna corrispondenza" },
+  "matchCountOne": {
+    "message": "$COUNT$ corrispondenza",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ corrispondenze",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cannotAccessTab": { "message": "Impossibile accedere alla scheda attuale" },
+  "pageNotSupported": { "message": "Questa pagina non supporta le estensioni" },
+  "genericError": {
+    "message": "Errore: $DETAILS$",
+    "placeholders": { "details": { "content": "$1" } }
+  },
+  "autoSearchActive": { "message": "● Ricerca automatica attiva" }
+}

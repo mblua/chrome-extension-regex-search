@@ -1,0 +1,93 @@
+{
+  "extName": {
+    "message": "Regex Search",
+    "description": "Extension name shown in the Chrome extensions list."
+  },
+  "extDescription": {
+    "message": "Search regex patterns in the visible text of any web page. Remembers the last search and re-applies it when you navigate.",
+    "description": "Extension description shown in the Chrome Web Store and extensions list."
+  },
+  "popupTitle": {
+    "message": "Regex Search",
+    "description": "Title shown at the top of the popup."
+  },
+  "inputPlaceholder": {
+    "message": "Ex: \\d{3}-\\d{4}",
+    "description": "Placeholder shown inside the regex input field."
+  },
+  "flagIgnoreCase": {
+    "message": "ignore case",
+    "description": "Label for the regex 'i' flag checkbox."
+  },
+  "flagMultiline": {
+    "message": "multiline",
+    "description": "Label for the regex 'm' flag checkbox."
+  },
+  "flagDotAll": {
+    "message": "dotAll",
+    "description": "Label for the regex 's' flag checkbox. Technical term, kept as-is."
+  },
+  "searchButton": {
+    "message": "Search",
+    "description": "Label for the main Search button."
+  },
+  "clearButton": {
+    "message": "Clear",
+    "description": "Label for the Clear/reset button."
+  },
+  "enterPatternError": {
+    "message": "Enter a regex pattern",
+    "description": "Error shown when the user presses Search without typing a pattern."
+  },
+  "invalidRegexError": {
+    "message": "Invalid regex: $DETAILS$",
+    "description": "Error shown when the regex cannot be compiled.",
+    "placeholders": {
+      "details": {
+        "content": "$1",
+        "example": "Unterminated character class"
+      }
+    }
+  },
+  "searchingStatus": {
+    "message": "Searching…",
+    "description": "Status shown while the search is in progress."
+  },
+  "noMatches": {
+    "message": "No matches",
+    "description": "Status shown when the regex produced zero results."
+  },
+  "matchCountOne": {
+    "message": "$COUNT$ match",
+    "description": "Status shown when exactly one match was found.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "1" }
+    }
+  },
+  "matchCountMany": {
+    "message": "$COUNT$ matches",
+    "description": "Status shown when more than one match was found.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "42" }
+    }
+  },
+  "cannotAccessTab": {
+    "message": "Cannot access the current tab",
+    "description": "Error shown when the extension cannot reach the active tab."
+  },
+  "pageNotSupported": {
+    "message": "This page does not allow extensions",
+    "description": "Error shown on chrome://, about:, and similar internal pages."
+  },
+  "genericError": {
+    "message": "Error: $DETAILS$",
+    "description": "Generic error wrapper used for unexpected failures.",
+    "placeholders": {
+      "details": { "content": "$1" }
+    }
+  },
+  "autoSearchActive": {
+    "message": "● Auto-search active",
+    "description": "Badge shown under the status line while the last search is re-applied on navigation."
+  }
+}
